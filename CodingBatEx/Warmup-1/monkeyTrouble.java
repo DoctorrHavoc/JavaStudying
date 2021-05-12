@@ -5,7 +5,7 @@
         monkeyTrouble(false, false) → true
         monkeyTrouble(true, false) → false`
  */
-public class Code1 {
+public class Code2 {
     public boolean monkeyTrouble(boolean aSmile,boolean bSmile){
         if((aSmile && bSmile) || (!aSmile && !bSmile))
             return true;
